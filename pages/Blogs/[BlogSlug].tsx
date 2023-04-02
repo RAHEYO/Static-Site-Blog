@@ -16,6 +16,7 @@ export const getStaticPaths: GetStaticPaths = () => {
     
 }
 
+// Getting props from the static-paths
 export const getStaticProps: GetStaticProps<InferredPostType> = async (context) => {
     const { params } = context;
     const { BlogSlug } = params as { BlogSlug: string };
