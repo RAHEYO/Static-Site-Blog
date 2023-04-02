@@ -1,0 +1,8 @@
+.page {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
